@@ -1,0 +1,17 @@
+name: hyp3-isce2
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.9
+  - numpy
+  - pip
+  - isce2>=2.6.3
+  - dem_stitcher>=2.4.0
+  - rasterio
+  - shapely
+  - jinja2
+  - asf_search>=6.4.0
+  - xmlschema
+  - pip:
+    pip+https://github.com/ASFHyP3/hyp3-isce2.git@v0.3.0
